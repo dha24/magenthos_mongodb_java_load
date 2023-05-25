@@ -8,5 +8,10 @@ MongoDB 6.0
 Standalone, RS, Sharded Cluster
 
 ## steps
- mvn clean install
+Replace  String uri = "CONNECTION_STRING"; in MongoDBUtils 
+
+mvn clean install
+ 
  mvn clean package
+ 
+ Run Magenthos.main()
